@@ -1,20 +1,20 @@
-@import "gulah00/css/reset.css";
-@import "gulah00/css/variables.css";
+@import "reset.css";
+@import "variables.css";
 
-@import "gulah00/css/status-bar.css";
-@import "gulah00/css/user-component.css";
-@import "gulah00/css/nav-bar.css";
-@import "gulah00/css/screen-header.css";
-@import "gulah00/css/login.css";
-@import "gulah00/css/friends-name-display.css";
-@import "gulah00/css/chats.css";
-@import "gulah00/css/find.css";
-@import "gulah00/css/icon-row.css";
-@import "gulah00/css/more.css";
-@import "gulah00/css/alt-screen-header.css";
-@import "gulah00/css/settings.css";
-@import "gulah00/css/chat.css";
-@import "gulah00/css/no-mobile.css";
+@import "status-bar.css";
+@import "user-component.css";
+@import "nav-bar.css";
+@import "screen-header.css";
+@import "login.css";
+@import "friends-name-display.css";
+@import "chats.css";
+@import "find.css";
+@import "icon-row.css";
+@import "more.css";
+@import "alt-screen-header.css";
+@import "settings.css";
+@import "chat.css";
+@import "no-mobile.css";
 
 * {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
