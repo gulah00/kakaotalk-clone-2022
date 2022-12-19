@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/codes/css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoatalk!</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">
+        <span class="bold">카카오톡</span>에 오신것을 환영합니다
+      </h1>
+      <div class="welcome-header__text">
+        <p class="welcome-header__text__up">계정과 비밀번호 입력없이</p>
+        <p class="welcome-header__text__down">카카오톡으로 로그인해 보세요.</p>
+      </div>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        name="text"
+        type="text"
+        required
+        placeholder="이메일 혹은 전화번호"
+      />
+      <input name="password" type="password" required placeholder="비밀번호" />
+      <input type="submit" value="로그인" />
+      <input type="submit" value="회원가입" />
+      <a href="#">카카오톡 계정과 비밀번호를 찾기</a>
+    </form>
+    <div id="splash-screen">
+      <i class="fas fa-comment"></i>
+    </div>
+    <div id="no-mobile">
+      <span
+      >It has one of two problems. <br></br> First, your screen is too big. <br></br> Second, your
+      screen is landscape mode.
+    </span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
