@@ -1,0 +1,68 @@
+.settings__setting {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+.settings__setting i {
+    opacity: 0.8;
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.settings-new {
+  margin-left: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-color: tomato;
+  border-radius: 50%;
+}
+
+.new span:last-child {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.settings__setting span {
+  font-size: 25px;
+}
+
+.settings-list {
+  margin-top: 25px;
+}
+
+.settings__setting:nth-child(2) span {
+  margin-left: 5px;
+}
+
+.settings__setting:last-child span {
+  margin-left:3px;
+}
+
+.last-ver {
+  padding-bottom: 50px;
+  border-bottom: 0px;
+}
+
+.last-ver span:last-child {
+  margin-left: 200px;
+  color: var(--text-gray);
+}
+
+.settings-line {
+  border-top: var(--border-bottom-line);
+  height: 1px;
+}
+
+.bottom {
+  margin-bottom: -18px;
+}
+

@@ -1,0 +1,47 @@
+.no-bottom-border{
+    border-bottom: none;
+}
+
+
+.icon-bottom {
+    margin-bottom: 20px;
+}
+
+.text-space_small {
+    margin-top: 10px;
+}
+
+.more-two {
+    display: flex;
+    justify-content: start;
+}
+
+.suggestions {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.suggestions-text {
+    font-size: 18px;
+    font-weight: 350;
+    margin-bottom: 30px;
+}
+
+.suggestions-list {
+    display: flex;
+    margin-left: 12px;
+}
+
+.suggestions-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 22px;
+}
+
+.suggestions-img span {
+    margin-top: 15px;
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.4)
+}

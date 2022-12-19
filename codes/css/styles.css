@@ -1,0 +1,30 @@
+@import "reset.css";
+@import "variables.css";
+
+@import "status-bar.css";
+@import "user-component.css";
+@import "nav-bar.css";
+@import "screen-header.css";
+@import "login.css";
+@import "friends-name-display.css";
+@import "chats.css";
+@import "find.css";
+@import "icon-row.css";
+@import "more.css";
+@import "alt-screen-header.css";
+@import "settings.css";
+@import "chat.css";
+@import "no-mobile.css";
+
+* {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    color: #2E363E;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-screen {
+    padding: 0px 25px;
+}

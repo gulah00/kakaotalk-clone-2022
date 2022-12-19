@@ -1,0 +1,100 @@
+
+.user-component {
+    margin: 20px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.user-component,
+.user-component__column:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.user-component__avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 28px;
+}
+
+.user-component__avatar__xl {
+    width: 80px;
+    height: 80px;
+    border-radius: 33px;
+}
+
+.user-component__avatar__xs{
+    width: 55px;
+    height: 55px;
+    border-radius: 23px;
+}
+
+.user-component__title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.user-component__subtitle{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 16px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.friends-screen__channel__header {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    
+}
+
+.friends-screen__channel {
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.font_small {
+    font-size: 22px;
+    font-weight: 350;
+    color: #2E363E;
+}
+
+.etc__small span{
+    font-size: 18px;
+}
+
+.friends-screen__channel__header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+    margin: 0px 22px;
+}
+
+.margin__top__small {
+    margin-top: 20px;
+}
+
+#splash-screen {
+    background-color: var(--yellow);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 132px;
+    animation: hideSplashScreen 0.9s ease-in-out forwards;
+  }
+
+  @keyframes hideSplashScreen {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }

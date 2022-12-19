@@ -1,0 +1,21 @@
+#friends-name-display {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+    background-color: #F9F9FA;
+    font-size: 18px;
+}
+
+#friends-name-display i:first-child {
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    opacity: 0.3;
+}
+
+#friends-name-display i:nth-child(2) {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    opacity: 0.3;
+}
